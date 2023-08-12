@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: red;
+    background-color: #000; /* MUDEI DE VOLTA A COR DE FUNDO*/
     color: #fff;
     line-height: 1.6;
 }
