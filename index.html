@@ -3,44 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Screenwave.com</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="screenwave/css/main.css"> <!-- Ligue este link a um arquivo CSS separado -->
 </head>
 <body>
-    <header>
-        <h1>ScreenWave</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Filmes em Destaque</a></li>
-                <li><a href="#">Categorias</a></li>
-                <li><a href="#">Sobre</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Faça Login</h1>
+            <form>
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" id="username" name="username" required>
 
-    <main>
-        <section class="filme">
-            <img src="caminho-para-imagem.jpg" alt="Poster do filme">
-            <h2>Apenas um Show</h2>
-            <p>Descrição do filme...</p>
-            <a href="#">Saiba Mais</a>
-        </section>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
 
-        
-
-    </main>
-       <button class="button">Área para download</button>
-
-<section class="filme">
-    
-    <div class="filme-button">
-        <button class="button">Saiba Mais</button>
+                <button type="submit">Entrar</button>
+            </form>
+            <p class="forgot-password">Esqueceu sua senha? <a href="#">Redefina aqui</a></p>
+        </div>
     </div>
-</section>
-
-    <footer>
-        <p>&copy; 2023 Meu Site de Filmes. Todos os direitos reservados.</p>
-    </footer>
 </body>
 </html>
